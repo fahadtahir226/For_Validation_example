@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <title>  Survey-Tasfia Raviba </title>
+    <!-- it is the reference to the css stylesheet using the @import url rule-->
+    <style>
+    @import url("css/style.css");
+    </style>
+   <script src="js/form.js"></script>
+
+  </head>
+
+  <body>
+
+  <header> Personality Revelation </header>
+
+  <form name="myform">
+
+      <fieldset>
+
+        <legend>Enter Information</legend>
+
+          <div id= "q1">
+             <label for="first_name_id">First Name:</label> <br>
+             <input id="first_name_id" type="text" name="first_name_name" title="First Name should Contain letters only!" pattern="[A-Za-z]{3,}$" value="">
+             <span id='s1'>
+
+             </span>
+            <br> <br>
+          </div>
+
+          <div id= "q2">
+             <label for="last_name_id">Last Name:</label><br>
+             <input id="last_name_id" type="text" name="last_name_name" title="Last Name should Contain letters only!" pattern="[A-Za-z]{3,}$" value="">
+             <span id='s2'>
+
+             </span>
+             <br> <br>
+          </div>
+
+          <div id= "q3">
+             <label for="phone_number_id">Phone Number:</label><br>
+             <input id="phone_number_id" type="text"  title="Phone Number should be in XXXX-XXX-XXXX pattern!" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone_number_name" value="">
+             <span id='s3'></span>
+             <br> <br>
+          </div>
+
+          <div id= "q4">
+             <label for="email_address_id">Email Address:</label><br>
+             <input id="email_address_id" type="text" title="Email Address must contain '@'!"  name="email_address_name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" value="">
+             <span id='s4' ></span>
+             <br> <br>
+          </div>
+
+          <div id= "q5">
+             <label for="students_address_id">Sulley Address</label><br>
+             <input id="students_address_id"  type="text" name="students_address_name" value="">
+             <span id='s5'></span>
+             <br> <br>
+          </div>
+
+      </fieldset>
+
+  <br>
+
+      <fieldset>
+        <legend>Take The Small Survey</legend>
+
+          <div>
+            <p>If you get a chance to visit one of these places from below, which one it would be?</p>
+            <input class="radio_inputs" id="visit_places" type="radio" name="visit_places" value="Eiffel Tower"> Eiffel Tower <br>
+            <input class="radio_inputs" id="visit_places" type="radio" name="visit_places" value="The Great Pyramid of Giza "> The Great Pyramid of Giza <br><br>
+          </div>
+
+          <div>
+             <p>If you could time travel, where would you go?</p>
+             <input class="radio_inputs" id="time_travel" type="radio" name="time_travel"  value="Rome's Colosseum, Italy"> Rome's Colosseum, Italy <br>
+             <input class="radio_inputs" id="time_travel" type="radio" name="time_travel" value="Taj Mahal, India"> Taj Mahal, India <br> <br>
+          </div>
+
+          <div>
+             <p>If you had to choose a color from below which one you would choose?</p>
+             <input class="radio_inputs" id="choose_color" type="radio" name="choose_color"  value="Red"> Red <br>
+             <input class="radio_inputs" id="choose_color" type="radio" name="choose_color" value="Green"> Green <br> <br>
+          </div>
+
+          <div>
+             <input name="submit" type="submit" class="button" id="submit" value="Click to Submit">
+          </div>
+
+      </fieldset>
+  </form>
+  <div id="result" ></div>
+  <footer>
+    Created by Tasfia Raviba
+  </footer>
+
+  </body>
+  </html>

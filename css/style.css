@@ -1,0 +1,42 @@
+@import "normalize.css";
+
+
+fieldset {
+    border-width: 10px;
+    border-style: groove;
+    background-color: #993366;
+    font-weight: bold;
+    color:#f2d9e6;
+}
+
+form {
+    margin: 1em;
+    padding-left: 27em;
+    width: 28em; /*eta form ta k boro choto kore pashe*/
+    /*font-family: ;*/
+}
+
+/*this is the color of the heading User Information*/
+
+legend {
+    border: thin dotted #333;
+    border-width: 6px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+}
+
+footer{
+  text-align: center;
+  font-weight: bold;
+  background-color: #ecc6d9;
+}
+
+header{
+  text-align: center;
+  font-weight: bold;
+  background-color: #ecc6d9;
+  font-size: 2em;
+  background-size: 20px;
+}
